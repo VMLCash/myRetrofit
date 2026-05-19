@@ -31,8 +31,8 @@ Example
 object RetrofitClient {
     // Base URL configuration (test environment)
     private const val API_SCHEME = "https"
-    private const val API_TLD = "test-ind-api.fyinformation"    // company identifier
-    private const val API_CC = "cc"               // country code
+    private const val API_TLD = "https://api.iroushborw"    // company identifier
+    private const val API_CC = "cyou"               // country code
 private val BASE_URL = "$API_SCHEME://$API_TLD.$API_CC/"
 
 private val loggingInterceptor = HttpLoggingInterceptor().apply {
